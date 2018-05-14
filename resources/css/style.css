@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "godOfWar";
+    src: url(../../resources/fonts/GODOFWAR.TFF);
+    font-weight: bold;
+}   
+
+@font-face {
+    font-family: "square721 BT";
+    src: url(../../resources/fonts/Squ721Rm.TFF);
+    font-weight: bold;
+}
+
+
+nav {
+    background-image: url(../../resources/img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.navbar-nav .nav-item {
+    color: black;   
+    margin-left: 25px;
+    
+}
+
+.border-bottom{
+    border-bottom: 3px solid #ff6200 !important;
+}
+h1{
+    font-family: 'square721 BT';
+    background-image: url(../../resources/img/bg-border-bottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-position-x: 60%;
+    padding-bottom: 20px;
+    color:black;
+ 
+}
+h1 span{
+font-weight: bold;
+}
+
+span{
+    font-size: 55px;
+}
+
+.container{
+   padding-top: 60px;
+   padding-bottom: 40px;
+}
+
+#contactus-image{
+    width: 100%;
+    height: auto;
+}
+
+#girl-image, #divider-image {
+   width: 100%;
+    height: auto;
+}
+
+#img-divider{
+    background-image: url(../../resources/img/divider.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 100% auto;
+}
+
+
+.container .row{
+    margin-top:10px;
+}
+
+#right-column{
+    padding-top: 50px;
+}
+
+#form-address{
+    margin-top: 80px;
+    padding-left: 50px;
+}
+#form-address h5{
+        font-family: 'godOfWar';
+    font-size: 12pt;
+    text-align: center;
+}
+#form-address p{
+ 
+text-align: center;
+}
+
+#right{
+    padding-left: 80px;
+}
+
+li{
+    white-space: nowrap;
+}
+
+
+#main-form{
+    background-image: url(../img/main-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: auto auto;
+   
+    height: 2000px;
+}
+
+nav a, label{
+    font-family: 'godOfWar';
+    font-size: 12pt;
+}
+
+
+
+footer a{
+    font-family: 'godOfWar';
+    font-size: 15pt;
+    color: white;
+}
+
+#input-form{
+    float:left;
+}
+
+input, textarea{
+    
+   
+}
+
+.border-shadow{
+    box-shadow: 5px 5px 8px #888888;   
+}
+
+.border-dashed{
+    border: 2px dashed black;
+}
+
+#send-button{
+    border: 1px dashed black;
+    background-color: #ff6201;
+    color:white;
+}
+
+
+
+footer{
+    margin-top: 400px;
+    background-image: url(../img/footer-line.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% auto;
+}
+footer h5{
+    font-family: 'godOfWar';
+ 
+    color: white;
+}
+
+.footer-pad > ul > li > img{
+    margin-bottom: 50px;
+}
+.footer-pad > ul > li > a{
+    margin-right: 30px;
+}
+
+footer p{
+    font-family: 'square721 BT';
+    font-size: 20pt;
+    color: white;
+}
+
+.footer-bottom p{
+    font-family: 'square721 BT';
+    font-size: 20pt;
+    color: white;
+    border: 2px solid #ff6201;
+    border-radius: 10px;
+}
